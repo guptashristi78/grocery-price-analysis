@@ -11,3 +11,11 @@ visualization to find:
 - Overall best (cheapest) store  
 
 ## 📁 Project Structure
+grocery-price-analysis/
+│
+├── README.md               ← Project documentation (this file)
+├── requirements.txt        ← Python dependencies
+├── data_generation.py      ← Generates dataset (grocery_prices.csv)
+├── analysis.py             ← Performs analysis + saves graphs
+├── grocery_prices.csv      ← Auto-created after running data_generation.py
+└── plots/                  ← Automatically created folder for graphs
